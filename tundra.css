@@ -1,0 +1,872 @@
+/*
+  CSS by Katie (#401).
+  Code for use by #401 ONLY. 
+*/
+
+/* FONT IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* DESKTOP BACKGROUND */
+
+@media screen and (min-width: 601px){
+body {
+	background: url('https://raw.githubusercontent.com/agaminae/wolvden/refs/heads/main/tundra_Canada_Manitoba_LaplandRosebayblur2_waifu2x_art_noise0_scale.png') center center fixed;
+	background-size: cover; 
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: lowercase !important;
+	color: #644629;}
+}
+
+@media screen and (max-width: 600px){
+body {
+	background: #efe3ce;
+	background-size: cover;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: lowercase !important;
+	color: #644629;}
+}
+
+/* NAVBAR ICONS */
+
+i.fa {
+	color: #f6f2e9 !important;
+}
+
+/* NAVBAR (DEN, CROSSROADS, HOARD) */
+
+.navbar {
+	background: #c49d5c !important;
+	color: #f6f2e9 !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+.navbar a.nav-link {
+	color: #f6f2e9 !important;
+	font-size: 22px !important;
+	text-transform: lowercase !important;
+}
+
+div#main-menu.collapse.navbar-collapse a.nav-link {
+	padding: 10px !important;
+}
+
+/* NAVBAR LINK HOVER */
+
+#header .navbar-main .active .nav-link,#header .navbar-main .active .nav-link .fa,#header .navbar-main .nav-link:hover,#header .navbar-main .nav-link:hover .fa {
+	color: #daabd4 !important;
+}
+
+/* BREADCRUMB BAR 1 (Welcome back, [user]) */
+
+.navbar-status, .navbar-expand {
+	background: #e0c17c !important;
+	color: #644629 !important;
+}
+
+.navbar-status, .navbar-expand a.nav-link {
+	color: #644629 !important;
+	font-size: 14px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+span.d-none.d-lg-inline.navbar-text a:hover {
+	color: #644629 !important;
+}
+
+button.btn.dropdown-toggle.border-0.text-light.b.m-0.p-0 {
+	color: #644629 !important;
+	transition: 0s !important;
+}
+
+i.fa.fa-envelope-open, i.fa.fa-box {
+	color: #644629 !important;
+}
+
+/* BREADCRUMB BAR 1 DROPDOWN */
+
+div.dropdown-menu.show {
+	background: #f6f2e9 !important;
+	border: none !important;
+	color: #644629 !important;
+}
+
+a.dropdown-item.text-dark {
+	color: #644629 !important;
+}
+
+/* BREADCRUMB BAR 2 (Home / [user] / Pack) */
+ 
+nav.breadcrumb-nav {
+	background: rgba(239, 221, 187, 0.4) !important;
+	color: #644629 !important;
+	border-bottom: none !important;
+}
+
+nav.breadcrumb-nav a {
+	color: #644629 !important;
+}
+
+li.breadcrumb-item.active {
+	color: #644629 !important;
+}
+
+/* BREADCRUMB BAR CREDIT */
+
+ol.breadcrumb.col-lg-9.ml-auto.text-break::after {
+        content: "CSS by Katie (#401)";
+        color: #644629;
+	font-size: 14px !important;
+        position: absolute;
+        right: 6%;
+        z-index: 100;
+}
+
+/* ALERTS */
+
+.alert, .alert-success, .alert-danger {
+	background: #d4c173 !important;
+	border: none !important;
+	color: #644629 !important;
+}
+
+.alert a, .alert-success a, .alert-danger a {
+	color: #644629 !important;
+}
+
+/* LEFT SIDEBAR (BACKGROUND) */
+
+div.col-lg-3 {
+	background: rgba(239, 221, 187, 0.4) !important;
+	border-right: none !important; 
+}
+
+/* MAIN PANEL (BACKGROUND) */
+
+div.col-lg-9.order-lg-2 {
+	background: rgba(239, 221, 187, 0.4) !important;
+}
+
+/* PACK NAME (H1) */
+
+div.col-lg-9.order-lg-2 h1 {
+	color: #644629 !important;
+	font-size: 50px !important;
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+/* TAB 1 ([User]'s Den) + /* TAB 2 ([User]'s Profile) (Text Color Shared With Navbar) */ 
+
+ul.nav.nav-tabs a.nav-link {
+	background: none !important;
+	color: #644629 !important;
+	margin: 1px !important;
+	border: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+ul.nav.nav-tabs {
+	border-bottom: none !important;
+}
+
+ul.nav.nav-tabs a.nav-link.active {
+	background: #d8c8ac !important;
+	color: #644629 !important;
+	border: none !important;
+	border-bottom: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	margin: 1px !important;
+}
+
+/* REPORT A BUG */
+
+button.btn.btn-danger.btn-lg.mb-3 {
+	background: #d4c173 !important;
+	color: #644629 !important;
+	border: none !important;
+	margin-top: 10px !important;
+}
+
+/* BUGBOX */
+
+form.mb-3.text-center a h4 {
+	color: #644629 !important;
+}
+
+form.mb-3.text-center a h4 i.fa.fa-box {
+	color: #644629 !important;
+}
+
+/* LEFT PANELS */
+
+.card {
+	background: #f6f2e9 !important;
+	border: none !important;
+	border-radius: 10px !important;
+	overflow: hidden !important;
+}
+
+div.card-body a {
+	color: #644629 !important;
+}
+
+div.card-body a b {
+	color: #644629 !important;
+}
+
+h3 {
+	color: #644629 !important;
+}
+
+/* LEFT PANELS SHADOW */
+
+#sidebar .card {
+	border-bottom: 7px solid #e0dcd4 !important;
+}
+
+/* CHAT TOGGLE */
+
+i.fa.fa-plus.fa-lg, i.fa.fa-lg.fa-minus {
+	color: #c49d5c !important;
+}
+
+/* PROGRESS BARS */
+
+.progress {
+	background: #e0dcd4 !important;
+}
+
+div#progress-energy.progress-bar.bg-warning {
+	background: #daabd4 !important;
+}
+
+div#progress-hunger.progress-bar.bg-danger {
+	background: #c4ae9b !important;
+}
+
+div#progress-hp.progress-bar.bg-info {
+	background: #debe86 !important;
+}
+ 
+div#progress-xp.progress-bar.bg-success {
+	background: #cdbd71 !important;
+}
+
+div.progress-bar.bg-warning {
+	background: #daabd4 !important;
+}
+
+div.progress-bar.bg-primary {
+	background: #c4ae9b !important;
+}
+
+div.progress-bar.bg-danger {
+	background: #debe86 !important;
+}
+
+div.progress-bar.bg-info {
+	background: #cdbd71 !important;
+}
+
+div.progress-bar.bg-success {
+	background: #daabd4 !important;
+}
+
+/* TABLE ROUNDING FIX (lets rounded corners show on wolf name bar tables) */
+
+table:has(th.pt-1.pb-1),
+table:has(th.top) {
+	border-collapse: separate !important;
+	border-spacing: 0 !important;
+	border-radius: 10px !important;
+	overflow: hidden !important;
+}
+
+/* WOLF NAME BAR */
+
+th.pt-1.pb-1 {
+	background: #c49d5c !important;
+	color: #f6f2e9 !important;
+	border: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;	
+}
+
+th.pt-1.pb-1 a {
+	color: #f6f2e9 !important;
+}
+
+/* CAVE NAME BAR */
+
+th.top {
+	background: #c49d5c !important;
+	color: #f6f2e9 !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+
+th.top a {
+	color: #f6f2e9 !important;
+}
+
+/* "MANAGE (CAVE NAME)" */
+
+.floatright a {
+	color: #644629 !important;
+}
+
+/* SELECT/INPUT BARS */
+
+select.form-control {
+	background: #f6f2e9 !important;
+	color: #644629 !important;
+	border: none !important;
+}
+
+button.btn.btn-success {
+	background: #d7c3a5 !important;
+	color: #644629 !important;
+	border: none !important;
+}
+
+/* CAVE UPDATE BUTTON */
+
+button#submitBtn.btn.btn-primary {
+	background: #d7c3a5 !important;
+	color: #644629 !important;
+	border: none !important;
+}
+
+/* MAIN PANELS/TABLES */
+
+tr {
+	background: #f6f2e9 !important;
+	border: none !important;
+}
+
+td.row {
+	background: none !important;
+	border: none !important;
+}
+
+td.bottom {
+	background: #f6f2e9 !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+td.bottom tr.pup {
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+tbody tr td {
+	background: #f6f2e9 !important;
+}
+
+/* INNER TABLE (LEFT) */
+
+td.b {
+	background: #f6f2e9 !important;
+}
+
+/* INNER TABLE (RIGHT) */
+
+tr td a {
+	color: #644629 !important;
+}
+
+i.fas.fa-question-circle {
+	color: #644629 !important;
+}
+
+/* LEAD WOLF SHADOW */
+
+div.card-body.pt-1.pb-1 {
+	background: #f6f2e9 !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+/* FEATURED WOLF */
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.featured-wolf a {
+	color: #644629 !important;
+}
+
+.card-user {
+	border: none !important;
+}
+
+/* REMOVE FEATURED WOLF BUTTON */
+
+button.btn.btn-link.btn-sm.text-danger {
+	color: #644629 !important;
+}
+
+/* WOLF IMAGES */
+
+td.row img.card-img-top {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf img {
+	border-radius: 20px !important;
+	overflow: hidden !important;
+}
+
+/* CARDS LISTING */
+
+.bg-dark {
+	background: #c49d5c !important;
+	color: #f6f2e9 !important;
+}
+
+span.badge.badge-info {
+	background: #c4ae9b !important;
+	color: #f6f2e9 !important;
+}
+
+div.card-body img {
+}
+
+/* DYNASTY, NESTING, OVERVIEW, BREEDING, TERRITORY SLOT, IMMORTAL SLOT */
+
+.card-header {
+	background: #d4c173 !important;
+	color: #644629 !important;
+	text-decoration: none !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+div.col-md-6 .card-header {
+	background: #d4c173 !important;
+	color: #644629 !important;
+	text-decoration: none !important;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.card-header:hover {
+	text-decoration: none !important;
+}
+
+.card-header b:hover {
+	color: #644629 !important;
+}
+
+button.btn.btn-warning {
+	background: #d4c173 !important;
+	border: none !important;
+}
+
+/* FAPA, AUTO NESTING */
+
+div#autoNesting.card-header {
+	background: #d4c173 !important;
+	color: #644629!important;
+	overflow: hidden!important;
+}
+
+div#groveServices.accordion {
+	background: none;
+	color: #644629!important;
+	border-radius: 0!important;
+	overflow: hidden!important
+}
+
+/* FAPA, AUTO NESTING TEXT */
+
+button.btn.btn-link.btn-block.text-left.border-0.b.pl-0, button.btn.btn-link.btn-block.text-left.border-0.b.pl-0 a {
+	color: #644629 !important;
+}
+
+a.text-danger.small {
+	color: #644629 !important;
+}
+
+/* CREATE A CAVE */
+
+button.btn.btn-info.btn-sm {
+	background: #c49d5c;
+	color: #f6f2e9;
+	border: none!important
+}
+
+/* PREVIEW DEN HTML BUTTON */
+
+button#btnPreviewDisplay.btn.btn-info.btn-lg {
+	background: #d7c3a5;
+	color: #644629;
+	font-size: 17px !important;
+	border: none !important
+}
+
+/* FEED/PLAY BUTTONS */
+
+button.btn.btn-info.btn-sm {
+	background: #c49d5c;
+	color: #f6f2e9;
+	border: none !important;
+}
+
+/* ROLLOVERS REMAINING TEXT */
+
+div.col-auto.pt-1 {
+	color: #644629;
+}
+
+/* COPYRIGHT */
+
+div.row.justify-content-center {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #644629 !important;
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+
+div.row.justify-content-center a {
+	color: #644629 !important;
+}
+
+nav.navbar.navbar-expand.navbar-dark.flex-wrap.justify-content-center {
+	background: #e0c17c !important;
+}
+
+/* SHITTY BORDER BEGONE */
+
+table.table.table-striped {
+	border: none !important;
+}
+
+table.table {
+	border: none !important;
+}
+
+div.w-50 {
+	border: none !important;
+}
+
+/* LEAD WOLF PAGE & USER PROFILE ADDONS */
+
+/* OWNED BY ___ TEXT */
+
+div.float-right.text-right a {
+	color: #644629 !important;
+}
+
+/* VIEW PREVIOUS PACKS TEXT */
+
+span.small a {
+	color: #644629 !important;
+}
+
+/* HEADER BARS */
+
+th.b, tbody tr th {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #644629 !important;
+}
+
+/* STATS */
+
+td.table-info.b.text-right {
+	background: none !important;
+}
+
+td.table-info.b.text-left {
+	background: none !important;
+}
+
+/* RETIRE, VIEW FAMILY, VIEW IN WARDROBE, GO TO EQUIPPER BUTTONS */
+
+a.btn.btn-primary.btn-block {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #644629 !important;
+}
+
+a.btn.btn-info.btn-block {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #644629 !important;
+}
+
+/* WOLF DETAILS, DECORATIONS, SETTINGS BUTTONS */
+
+a.nav-item.nav-link {
+	background: #e0c17c !important;
+	border: none !important;
+	margin: 5px !important;
+	color: #644629 !important;
+}
+
+/* ACHIEVEMENTS */
+
+div.alert.alert-info.text-center {
+	background: #d4c173 !important;
+}
+
+/* PROFILE DIVIDER LINES */
+
+div#nav-tab.nav.nav-tabs {
+	border-color: #f6f2e9 !important;
+}
+
+hr {
+	border-color: #f6f2e9 !important;
+}
+
+/* BREED TO THIS BREEDING MALE BUTTON */
+
+a.btn.btn-info {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #f6f2e9 !important;
+}
+
+/* UPDATE BUTTON */
+
+button.btn.btn-primary.float-right {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #f6f2e9 !important;
+}
+
+/* REPORT WOLF BUTTON */
+
+button.btn.btn-danger {
+	background: #e0c17c !important;
+	border: none !important;
+	color: #644629 !important;
+}
+
+/* CHANGE PASSWORD, MANAGE DEVICES, VIEW USER LOG */
+
+div.card-body.text-center.font-weight-bold.p-2 {
+	background: #e0c17c !important;
+	color: #644629 !important;
+}
+
+/* LAST ACTIVE TEXT + ONLINE/OFFLINE DOTS */
+
+span.text-success {
+	color: #8b9e50 !important;
+}
+
+span.text-failure {
+	color: #9e5450 !important;
+}
+
+/* LEFT + RIGHT ARROWS */
+
+i.fas.fa-arrow-alt-circle-left {
+	color: #644629 !important;
+}
+
+i.fas.fa-arrow-alt-circle-right {
+	color: #644629 !important;
+}
+
+/* WOLF ID */
+
+span.text-muted {
+	color: #644629 !important;
+}
+
+/* BIO TEXT BOX */
+
+div.note-toolbar.card-header {
+	background: #e0c17c !important;
+	color: #b15154 !important;
+}
+
+div.note-editing-area {
+	background: #f6f2e9 !important;
+	color: #644629 !important;
+}
+
+/* LINKS */
+
+a:link,
+a:visited {
+	color: #644629 !important;
+}
+
+span.d-none.d-md-inline {
+	color: #644629 !important;
+}
+
+a:hover {
+	color: #daabd4 !important;
+}
+
+/* BOXES */ 
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.profilebox {
+	float: left;
+	background: #f6f2e9;
+	color: #644629;
+	padding: 15px;
+	border: none;
+	border-bottom: 7px solid #e0dcd4 !important;
+	border-radius: 10px;
+	margin: 10px 10px 20px 10px;
+	height: auto;
+	width: 415px;
+	overflow: auto;
+}
+
+.profilebox a:link, .profilebox a:visited {
+	color: #864f61 !important;
+}
+
+.denbox {
+	float: left;
+	background: #f6f2e9;
+	color: #644629;
+	padding: 15px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px 10px 20px 10px;
+	height: 220px;
+	width: 408px;
+	overflow: auto;
+}
+
+.denbox a:link, .denbox a:visited {
+	color: #864f61 !important;
+}
+
+.art {
+	background: none;
+	padding: none;
+	border: none;
+	margin: 8px;
+	float: right;
+	height: 500px;
+	width: 408px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin-bottom: -280px;
+	margin-right: 60px;
+	pointer-events: none;
+}
+
+.creditbox {
+	float: left;
+	background: none;
+	color: #644629;
+	padding: 1px;
+	border: none;
+	border-radius: 10px;
+	margin: 1px;
+	height: 25px;
+	width: 408px;
+	overflow: hidden;
+}
+
+.creditbox2 {
+	float: left;
+	background: none;
+	color: #644629;
+	padding: 1px;
+	border: none;
+	border-radius: 10px;
+	margin: 1px;
+	height: 25px;
+	width: 408px;
+	overflow: hidden;
+}
+
+.creditbox a:link, .creditbox a:visited {
+	color: #864f61 !important;
+}
+
+.creditbox2 a:link, .creditbox2 a:visited {
+	color: #864f61 !important;
+}
+
+@media screen and (max-width: 600px){
+.art {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.creditbox {
+	display: none !important;
+	visibility: hidden !important;
+}
+}
+
+/* SCROLLBAR */
+
+/* FIREFOX */
+
+:root {
+scrollbar-color: #c486bc #e0dcd4 !important;
+scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 0px;
+	border-radius: 10px;
+	overflow: hidden !important;
+}
+
+::-webkit-scrollbar-track {
+	background: #e0dcd4;
+	border-radius: 10px;
+	overflow: hidden !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #c486bc;
+	border-radius: 10px;
+	overflow: hidden !important;
+}
+
+.denbox::-webkit-scrollbar {
+	width: 8px;
+	height: 0px;
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	overflow: hidden !important;
+}
+
+.denbox::-webkit-scrollbar-track {
+	background: #e0dcd4;
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	overflow: hidden !important;
+}
+
+.denbox::-webkit-scrollbar-thumb {
+	background: #c486bc;
+	border-radius: 10px !important;
+	overflow: hidden !important;
+}

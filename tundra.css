@@ -425,6 +425,11 @@ img.border-bottom {
 	border-radius: 10px !important;
 }
 
+img.border-bottom.p-2 {
+	border: none !important;
+	border-radius: 15px !important;
+}
+
 /* CARDS LISTING */
 
 .bg-dark {

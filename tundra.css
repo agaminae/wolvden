@@ -503,6 +503,10 @@ a.text-danger.small {
 	color: #644629 !important;
 }
 
+button.btn.btn-link.text-left.border-0.b.pl-0.collapsed {
+	color: #644629 !important;
+}
+
 /* CREATE A CAVE */
 
 button.btn.btn-info.btn-sm {

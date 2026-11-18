@@ -18,9 +18,13 @@
     --textb: #f6f2e9;
     --textc: #daabd4;}
 
-/* FONT IMPORT */
+/* FONT */
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+	text-transform: lowercase !important;
+}
 
 /* DESKTOP BACKGROUND */
 
@@ -351,7 +355,7 @@ i.fas.fa-question-circle {
 /* LEAD WOLF SHADOW */
 
 div.card-body.pt-1.pb-1 {
-	background: var(--accent3) !important;
+	background: var(--textb) !important;
 	border-bottom-left-radius: 10px !important;
 	border-bottom-right-radius: 10px !important;
 }
@@ -807,3 +811,10 @@ div.w-50 {
 hr {
     border: none !important;
 }
+
+/* TWILL IMAGE */
+
+#dk-launch.dk-b-mark img {
+    border: none !important;
+}
+	

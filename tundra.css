@@ -22,10 +22,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-body {
-	text-transform: lowercase !important;
-}
-
 /* DESKTOP BACKGROUND */
 
 @media screen and (min-width: 601px){

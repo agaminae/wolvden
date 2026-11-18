@@ -496,6 +496,14 @@ img.border-bottom.p-2 {
 	border-radius: 15px !important;
 }
 
+#sidebar #card-user a img {
+        border-radius: 20px !important;
+}
+
+img.float-left.mr-2 {
+        border-radius: 20px !important;
+}
+
 /* FAPA, AUTO NESTING */
 
 div#autoNesting.card-header {

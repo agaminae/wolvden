@@ -420,6 +420,12 @@ div.progress-bar.bg-warning {
 	background: var(--textc) !important;
 }
 
+/* PUP SURVIVAL CHANCE */
+
+div.progress-bar.bg-success {
+	background: var(--textc) !important;
+}
+
 /* MOOD */
 
 div.progress-bar.bg-primary {
